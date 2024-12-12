@@ -4,10 +4,10 @@ module.exports = {
   siteMetadata: {
     title: `Decoupled.blog`,
     description: `Resources for your Decoupled WordPress journey.`,
-    author: `@muhsinlk`,
-    url: "https://decoupled.blog", // No trailing slash allowed!
-    image: "https://decoupled.blog/icons/icon-512x512.png", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@muhsinlk",
+    author: `@nicholas`,
+    url: "https://decoupled.blog",
+    image: "https://decoupled.blog/icons/icon-512x512.png",
+    twitterUsername: "@nicholas",
   },
   plugins: [
     {
@@ -42,12 +42,10 @@ module.exports = {
         background_color: `#205D86`,
         theme_color: `#205D86`,
         display: `minimal-ui`,
-        icon: `src/images/decoupled-blog-favicon.png`, // This path is relative to the root of the site.
+        icon: `src/images/decoupled-blog-favicon.png`,
       },
     },
-    `gatsby-plugin-styled-components`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
+    `gatsby-plugin-styled-components`,]
     'gatsby-plugin-offline',
   ],
 }
