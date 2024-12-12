@@ -1,10 +1,11 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { useStaticQuery, graphql } from "gatsby"
 
 const AuditImage = () => {
   const data = useStaticQuery(graphql`
-    query {
+    query 
+    {
       placeholderImage: file(relativePath: { eq: "audit-screenshot.png" }) {
         childImageSharp {
           fluid(maxWidth: 1200) {
