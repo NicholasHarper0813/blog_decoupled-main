@@ -2,35 +2,42 @@ import { createGlobalStyle } from "styled-components"
 
 export const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css?family=Karla|Lato');
-  :root {
+  :root
+  {
     --primary-color: #205D86;
     --white: #FFFFFF;
   }
   * {
     box-sizing: border-box;
   }
-  html {
+  html 
+  {
     font-family: lato;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     touch-action: manipulation;
     over-flow: hidden;
   }
-  body {
+  body
+  {
     margin: 0;
     -apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
   }
-  main {
+  main 
+  {
     flex: 1 0 auto;
-    h1,h2,h3,h4,h5,h6 {
+    h1,h2,h3,h4,h5,h6 
+    {
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     color: #0c2340;
     }
-    a {
+    a
+    {
       color: #205D86;
     }
   }
-  a {
+  a
+  {
     text-decoration: none;
     color: inherit;
   }
@@ -44,32 +51,39 @@ export const GlobalStyle = createGlobalStyle`
   menu,
   nav,
   section,
-  summary {
+  summary 
+  {
     display: block;
   }
   audio,
   canvas,
   progress,
-  video {
+  video 
+  {
     display: inline-block;
   }
-  audio:not([controls]) {
+  audio:not([controls])
+  {
     display: none;
     height: 0;
   }
-  progress {
+  progress
+  {
     vertical-align: baseline;
   }
   [hidden],
-  template {
+  template 
+  {
     display: none;
   }
-  a {
+  a 
+  {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
   }
   a:active,
-  a:hover {
+  a:hover
+  {
     outline-width: 0;
   }
   abbr[title] {
@@ -78,38 +92,47 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: underline dotted;
   }
   b,
-  strong {
+  strong 
+  {
     font-weight: inherit;
     font-weight: bolder;
   }
-  dfn {
+  dfn 
+  {
     font-style: italic;
   }
-  h1 {
+  h1 
+  {
     font-size: 2em;
     margin: 0.67em 0;
   }
-  mark {
+  mark
+  {
     background-color: #ff0;
     color: #000;
   }
-  small {
+  small
+  {
     font-size: 80%;
   }
   sub,
-  sup {
+  sup 
+  {
     font-size: 75%;
     line-height: 0;
     position: relative;
     vertical-align: baseline;
   }
-  sub {
+  sub
+  {
     bottom: -0.25em;
   }
-  sup {
+  sup
+  {
     top: -0.5em;
   }
-  img {
+  img 
+  {
     border-style: none;
   }
   svg:not(:root) {
@@ -118,14 +141,17 @@ export const GlobalStyle = createGlobalStyle`
   code,
   kbd,
   pre,
-  samp {
+  samp
+  {
     font-family: monospace, monospace;
     font-size: 1em;
   }
-  figure {
+  figure
+  {
     margin: 1em 40px;
   }
-  hr {
+  hr
+  {
     box-sizing: content-box;
     height: 0;
     overflow: visible;
@@ -134,25 +160,30 @@ export const GlobalStyle = createGlobalStyle`
   input,
   optgroup,
   select,
-  textarea {
+  textarea 
+  {
     font: inherit;
     margin: 0;
   }
-  optgroup {
+  optgroup
+  {
     font-weight: 700;
   }
   button,
-  input {
+  input 
+  {
     overflow: visible;
   }
   button,
-  select {
+  select 
+  {
     text-transform: none;
   }
   [type="reset"],
   [type="submit"],
   button,
-  html [type="button"] {
+  html [type="button"] 
+  {
     -webkit-appearance: button;
   }
   [type="button"]::-moz-focus-inner,
@@ -165,15 +196,18 @@ export const GlobalStyle = createGlobalStyle`
   [type="button"]:-moz-focusring,
   [type="reset"]:-moz-focusring,
   [type="submit"]:-moz-focusring,
-  button:-moz-focusring {
+  button:-moz-focusring 
+  {
     outline: 1px dotted ButtonText;
   }
-  fieldset {
+  fieldset 
+  {
     border: 1px solid silver;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
   }
-  legend {
+  legend 
+  {
     box-sizing: border-box;
     color: inherit;
     display: table;
@@ -181,31 +215,38 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     white-space: normal;
   }
-  textarea {
+  textarea
+  {
     overflow: auto;
   }
   [type="checkbox"],
-  [type="radio"] {
+  [type="radio"]
+  {
     box-sizing: border-box;
     padding: 0;
   }
   [type="number"]::-webkit-inner-spin-button,
-  [type="number"]::-webkit-outer-spin-button {
+  [type="number"]::-webkit-outer-spin-button
+  {
     height: auto;
   }
-  [type="search"] {
+  [type="search"] 
+  {
     -webkit-appearance: textfield;
     outline-offset: -2px;
   }
   [type="search"]::-webkit-search-cancel-button,
-  [type="search"]::-webkit-search-decoration {
+  [type="search"]::-webkit-search-decoration 
+  {
     -webkit-appearance: none;
   }
-  ::-webkit-input-placeholder {
+  ::-webkit-input-placeholder
+  {
     color: inherit;
     opacity: 0.54;
   }
-  ::-webkit-file-upload-button {
+  ::-webkit-file-upload-button 
+  {
     -webkit-appearance: button;
     font: inherit;
   }
@@ -223,7 +264,8 @@ export const GlobalStyle = createGlobalStyle`
   *:after {
     box-sizing: inherit;
   }
-  body {
+  body
+  {
     color: hsla(0, 0%, 0%, 0.8);
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI','Roboto','Oxygen','Ubuntu', 'Cantarell','Fira Sans','Droid Sans','Helvetica Neue',sans-serif;
     font-weight: normal;
@@ -234,7 +276,8 @@ export const GlobalStyle = createGlobalStyle`
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
   }
-  img {
+  img
+  {
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
@@ -245,7 +288,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  h1 {
+  h1
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -262,7 +306,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 2.25rem;
     line-height: 1.1;
   }
-  h2 {
+  h2 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -279,7 +324,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.62671rem;
     line-height: 1.1;
   }
-  h3 {
+  h3
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -296,7 +342,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1.38316rem;
     line-height: 1.1;
   }
-  h4 {
+  h4
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -313,7 +360,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
     line-height: 1.1;
   }
-  h5 {
+  h5
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -330,7 +378,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 0.85028rem;
     line-height: 1.1;
   }
-  h6 {
+  h6 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -347,7 +396,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 0.78405rem;
     line-height: 1.1;
   }
-  hgroup {
+  hgroup 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -357,7 +407,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  ul {
+  ul
+  {
     margin-left: 1.45rem;
     margin-right: 0;
     margin-top: 0;
@@ -369,7 +420,8 @@ export const GlobalStyle = createGlobalStyle`
     list-style-position: outside;
     list-style-image: none;
   }
-  ol {
+  ol
+  {
     margin-left: 1.45rem;
     margin-right: 0;
     margin-top: 0;
@@ -381,7 +433,8 @@ export const GlobalStyle = createGlobalStyle`
     list-style-position: outside;
     list-style-image: none;
   }
-  dl {
+  dl
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -401,7 +454,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  p {
+  p 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -411,7 +465,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  figure {
+  figure
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -421,7 +476,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  pre {
+  pre
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -434,7 +490,8 @@ export const GlobalStyle = createGlobalStyle`
     word-wrap: normal;
     padding: 1.45rem;
   }
-  table {
+  table 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -448,7 +505,8 @@ export const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     width: 100%;
   }
-  fieldset {
+  fieldset 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -458,7 +516,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  blockquote {
+  blockquote
+  {
     margin-left: 1.45rem;
     margin-right: 1.45rem;
     margin-top: 0;
@@ -468,7 +527,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  form {
+  form 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -478,7 +538,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  noscript {
+  noscript 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -488,7 +549,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  iframe {
+  iframe 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -498,7 +560,8 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  hr {
+  hr 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -511,7 +574,8 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
     height: 1px;
   }
-  address {
+  address 
+  {
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
@@ -521,79 +585,100 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
-  b {
+  b 
+  {
     font-weight: bold;
   }
-  strong {
+  strong 
+  {
     font-weight: bold;
   }
-  dt {
+  dt
+  {
     font-weight: bold;
   }
-  th {
+  th 
+  {
     font-weight: bold;
   }
-  li {
+  li
+  {
     margin-bottom: calc(1.45rem / 2);
   }
-  ol li {
+  ol li 
+  {
     padding-left: 0;
   }
-  ul li {
+  ul li 
+  {
     padding-left: 0;
   }
-  li > ol {
+  li > ol 
+  {
     margin-left: 1.45rem;
     margin-bottom: calc(1.45rem / 2);
     margin-top: calc(1.45rem / 2);
   }
-  li > ul {
+  li > ul 
+  {
     margin-left: 1.45rem;
     margin-bottom: calc(1.45rem / 2);
     margin-top: calc(1.45rem / 2);
   }
-  blockquote *:last-child {
+  blockquote *:last-child 
+  {
     margin-bottom: 0;
   }
-  li *:last-child {
+  li *:last-child
+  {
     margin-bottom: 0;
   }
-  p *:last-child {
+  p *:last-child 
+  {
     margin-bottom: 0;
   }
-  li > p {
+  li > p 
+  {
     margin-bottom: calc(1.45rem / 2);
   }
-  code {
+  code 
+  {
     font-size: 0.85rem;
     line-height: 1.45rem;
   }
-  kbd {
+  kbd 
+  {
     font-size: 0.85rem;
     line-height: 1.45rem;
   }
-  samp {
+  samp 
+  {
     font-size: 0.85rem;
     line-height: 1.45rem;
   }
-  abbr {
+  abbr 
+  {
     border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
     cursor: help;
   }
-  acronym {
+  acronym
+  {
     border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
     cursor: help;
   }
-  abbr[title] {
+  abbr[title]
+  {
     border-bottom: 1px dotted hsla(0, 0%, 0%, 0.5);
     cursor: help;
     text-decoration: none;
   }
-  thead {
+  thead 
+  {
     text-align: left;
   }
   td,
-  th {
+  th 
+  {
     text-align: left;
     border-bottom: 1px solid hsla(0, 0%, 0%, 0.12);
     font-feature-settings: "tnum";
@@ -606,15 +691,18 @@ export const GlobalStyle = createGlobalStyle`
     padding-bottom: calc(0.725rem - 1px);
   }
   th:first-child,
-  td:first-child {
+  td:first-child 
+  {
     padding-left: 0;
   }
   th:last-child,
-  td:last-child {
+  td:last-child
+  {
     padding-right: 0;
   }
   tt,
-  code {
+  code
+  {
     background-color: hsla(0, 0%, 0%, 0.04);
     border-radius: 3px;
     font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
@@ -623,29 +711,35 @@ export const GlobalStyle = createGlobalStyle`
     padding-top: 0.2em;
     padding-bottom: 0.2em;
   }
-  pre code {
+  pre code 
+  {
     background: none;
     line-height: 1.42;
   }
   code:before,
   code:after,
   tt:before,
-  tt:after {
+  tt:after
+  {
     letter-spacing: -0.2em;
     content: " ";
   }
   pre code:before,
   pre code:after,
   pre tt:before,
-  pre tt:after {
+  pre tt:after
+  {
     content: "";
   }
-  @media only screen and (max-width: 480px) {
-    html {
+  @media only screen and (max-width: 480px)
+  {
+    html 
+    {
       font-size: 100%;
     }
   }
-  .nav-active {
+  .nav-active 
+  {
     border-bottom: 1px solid rgb(19, 159, 201);
   }
 `
