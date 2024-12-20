@@ -6,9 +6,12 @@ const AuditImage = () => {
   const data = useStaticQuery(graphql`
     query 
     {
-      placeholderImage: file(relativePath: { eq: "audit-screenshot.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200) {
+      placeholderImage: file(relativePath: { eq: "audit-screenshot.png" }) 
+      {
+        childImageSharp 
+        {
+          fluid(maxWidth: 1200) 
+          {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
