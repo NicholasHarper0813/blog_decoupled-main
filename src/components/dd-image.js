@@ -5,9 +5,12 @@ import { useStaticQuery, graphql } from "gatsby"
 const DSImage = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "decoupled-diagram.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 900) {
+      placeholderImage: file(relativePath: { eq: "decoupled-diagram.png" })
+      {
+        childImageSharp 
+        {
+          fluid(maxWidth: 900) 
+          {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
